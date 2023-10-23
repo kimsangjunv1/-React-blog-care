@@ -1,5 +1,21 @@
 :root {
 	--header-width: 240px;
+	--font-main: "IMHyemin";
+	--font-height: 1.4;
+	--font-color: #000;
+
+	font-family: var(--font-main), Inter, system-ui, Avenir, Helvetica, Arial,
+		sans-serif;
+	font-weight: 400;
+	font-size: var(--font-size);
+	line-height: var(--font-height);
+	color: var(--font-color);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
 }
 
 html,

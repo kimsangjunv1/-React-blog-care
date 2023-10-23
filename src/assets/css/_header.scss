@@ -5,8 +5,12 @@ header {
 	height: 100%;
 
 	width: var(--header-width);
-	background: rgb(235, 235, 239);
+	// background: rgb(235, 235, 239);
 	.header_inner {
-		background: red;
+		// background: red;
+
+		ul {
+			padding: 0 20px;
+		}
 	}
 }
