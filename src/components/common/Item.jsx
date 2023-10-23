@@ -10,10 +10,11 @@ const Item = (props) => {
 	}, []);
 
 	return (
-		<div ref={item}>
-			<h2>{props.item}</h2>
-			<h2>{props.good}</h2>
-			<img src="asd" alt="asd" />
+		<div className="item" ref={item}>
+			{/* <h2>{props.item}</h2> */}
+			<h2 className="title">{props.title}</h2>
+			<h2 className="date">{props.date}</h2>
+			<img src={props.image} alt="asd" />
 		</div>
 	);
 };
